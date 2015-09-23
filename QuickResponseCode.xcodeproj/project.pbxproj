@@ -17,7 +17,6 @@
 		EF3D30071BB22D480064EDC0 /* QuickResponseCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30061BB22D480064EDC0 /* QuickResponseCodeTests.m */; };
 		EF3D30121BB22D480064EDC0 /* QuickResponseCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30111BB22D480064EDC0 /* QuickResponseCodeUITests.m */; };
 		EF3D30211BB2335E0064EDC0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30201BB2335E0064EDC0 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
-		EF3D30241BB24C640064EDC0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30231BB24C640064EDC0 /* AboutViewController.m */; settings = {ASSET_TAGS = (); }; };
 		EF3D30391BB290880064EDC0 /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30381BB290880064EDC0 /* ScannerViewController.m */; settings = {ASSET_TAGS = (); }; };
 		EF3D303D1BB2915E0064EDC0 /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D303B1BB2915E0064EDC0 /* border.png */; settings = {ASSET_TAGS = (); }; };
 		EF3D303E1BB2915E0064EDC0 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D303C1BB2915E0064EDC0 /* line.png */; settings = {ASSET_TAGS = (); }; };
@@ -77,8 +76,6 @@
 		EF3D30131BB22D480064EDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF3D301F1BB2335E0064EDC0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
 		EF3D30201BB2335E0064EDC0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
-		EF3D30221BB24C640064EDC0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
-		EF3D30231BB24C640064EDC0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
 		EF3D30371BB290880064EDC0 /* ScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerViewController.h; sourceTree = SOURCE_ROOT; };
 		EF3D30381BB290880064EDC0 /* ScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerViewController.m; sourceTree = SOURCE_ROOT; };
 		EF3D303B1BB2915E0064EDC0 /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = border.png; path = images/border.png; sourceTree = "<group>"; };
@@ -171,8 +168,6 @@
 			children = (
 				EF3D30371BB290880064EDC0 /* ScannerViewController.h */,
 				EF3D30381BB290880064EDC0 /* ScannerViewController.m */,
-				EF3D30221BB24C640064EDC0 /* AboutViewController.h */,
-				EF3D30231BB24C640064EDC0 /* AboutViewController.m */,
 				EF3D2FEF1BB22D480064EDC0 /* AppDelegate.h */,
 				EF3D2FF01BB22D480064EDC0 /* AppDelegate.m */,
 				EF3D301F1BB2335E0064EDC0 /* RootViewController.h */,
@@ -422,7 +417,6 @@
 			files = (
 				EF3D2FF41BB22D480064EDC0 /* ViewController.m in Sources */,
 				EF3D30391BB290880064EDC0 /* ScannerViewController.m in Sources */,
-				EF3D30241BB24C640064EDC0 /* AboutViewController.m in Sources */,
 				EF3D2FF11BB22D480064EDC0 /* AppDelegate.m in Sources */,
 				EF3D30211BB2335E0064EDC0 /* RootViewController.m in Sources */,
 				EF3D2FEE1BB22D480064EDC0 /* main.m in Sources */,
