@@ -15,6 +15,7 @@
 		EF3D2FFC1BB22D480064EDC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3D2FFA1BB22D480064EDC0 /* LaunchScreen.storyboard */; };
 		EF3D30071BB22D480064EDC0 /* QuickResponseCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30061BB22D480064EDC0 /* QuickResponseCodeTests.m */; };
 		EF3D30121BB22D480064EDC0 /* QuickResponseCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30111BB22D480064EDC0 /* QuickResponseCodeUITests.m */; };
+		EF3D30211BB2335E0064EDC0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30201BB2335E0064EDC0 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EF3D300D1BB22D480064EDC0 /* QuickResponseCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickResponseCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3D30111BB22D480064EDC0 /* QuickResponseCodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickResponseCodeUITests.m; sourceTree = "<group>"; };
 		EF3D30131BB22D480064EDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3D301F1BB2335E0064EDC0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
+		EF3D30201BB2335E0064EDC0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				EF3D2FEF1BB22D480064EDC0 /* AppDelegate.h */,
 				EF3D2FF01BB22D480064EDC0 /* AppDelegate.m */,
+				EF3D301F1BB2335E0064EDC0 /* RootViewController.h */,
+				EF3D30201BB2335E0064EDC0 /* RootViewController.m */,
 				EF3D2FF21BB22D480064EDC0 /* ViewController.h */,
 				EF3D2FF31BB22D480064EDC0 /* ViewController.m */,
 				EF3D2FF51BB22D480064EDC0 /* Main.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				EF3D2FF41BB22D480064EDC0 /* ViewController.m in Sources */,
 				EF3D2FF11BB22D480064EDC0 /* AppDelegate.m in Sources */,
+				EF3D30211BB2335E0064EDC0 /* RootViewController.m in Sources */,
 				EF3D2FEE1BB22D480064EDC0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				EF3D30181BB22D480064EDC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3D30191BB22D480064EDC0 /* Build configuration list for PBXNativeTarget "QuickResponseCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				EF3D301B1BB22D480064EDC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF3D301C1BB22D480064EDC0 /* Build configuration list for PBXNativeTarget "QuickResponseCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				EF3D301E1BB22D480064EDC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
