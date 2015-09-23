@@ -1,0 +1,4 @@
+#platform :ios,’8.4’
+target "QuickResponseCode" do
+ pod "ZXingObjC" #二维码扫描
+end
