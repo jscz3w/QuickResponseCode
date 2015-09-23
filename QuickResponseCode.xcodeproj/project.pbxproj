@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82E304F717BF938F9FE2E292 /* libPods-QuickResponseCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C26A0742DBB698C3E3916 /* libPods-QuickResponseCode.a */; };
 		EF3D2FEE1BB22D480064EDC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D2FED1BB22D480064EDC0 /* main.m */; };
 		EF3D2FF11BB22D480064EDC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D2FF01BB22D480064EDC0 /* AppDelegate.m */; };
 		EF3D2FF41BB22D480064EDC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D2FF31BB22D480064EDC0 /* ViewController.m */; };
@@ -16,6 +17,7 @@
 		EF3D30071BB22D480064EDC0 /* QuickResponseCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30061BB22D480064EDC0 /* QuickResponseCodeTests.m */; };
 		EF3D30121BB22D480064EDC0 /* QuickResponseCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30111BB22D480064EDC0 /* QuickResponseCodeUITests.m */; };
 		EF3D30211BB2335E0064EDC0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30201BB2335E0064EDC0 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF3D30241BB24C640064EDC0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30231BB24C640064EDC0 /* AboutViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D67CB38025326FE3331818C /* Pods-QuickResponseCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickResponseCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuickResponseCode/Pods-QuickResponseCode.debug.xcconfig"; sourceTree = "<group>"; };
+		B63C26A0742DBB698C3E3916 /* libPods-QuickResponseCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuickResponseCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C39D0E4D2BCD30C4F232A1 /* Pods-QuickResponseCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuickResponseCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuickResponseCode/Pods-QuickResponseCode.release.xcconfig"; sourceTree = "<group>"; };
 		EF3D2FE91BB22D480064EDC0 /* QuickResponseCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickResponseCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3D2FED1BB22D480064EDC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF3D2FEF1BB22D480064EDC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +59,8 @@
 		EF3D30131BB22D480064EDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF3D301F1BB2335E0064EDC0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ../RootViewController.h; sourceTree = "<group>"; };
 		EF3D30201BB2335E0064EDC0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
+		EF3D30221BB24C640064EDC0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		EF3D30231BB24C640064EDC0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E304F717BF938F9FE2E292 /* libPods-QuickResponseCode.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		131CD2DB6B8B50BE4645FC02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B63C26A0742DBB698C3E3916 /* libPods-QuickResponseCode.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50140F93DEDC10433A66AF5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D67CB38025326FE3331818C /* Pods-QuickResponseCode.debug.xcconfig */,
+				C6C39D0E4D2BCD30C4F232A1 /* Pods-QuickResponseCode.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF3D2FE01BB22D480064EDC0 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +113,8 @@
 				EF3D30051BB22D480064EDC0 /* QuickResponseCodeTests */,
 				EF3D30101BB22D480064EDC0 /* QuickResponseCodeUITests */,
 				EF3D2FEA1BB22D480064EDC0 /* Products */,
+				50140F93DEDC10433A66AF5E /* Pods */,
+				131CD2DB6B8B50BE4645FC02 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +131,8 @@
 		EF3D2FEB1BB22D480064EDC0 /* QuickResponseCode */ = {
 			isa = PBXGroup;
 			children = (
+				EF3D30221BB24C640064EDC0 /* AboutViewController.h */,
+				EF3D30231BB24C640064EDC0 /* AboutViewController.m */,
 				EF3D2FEF1BB22D480064EDC0 /* AppDelegate.h */,
 				EF3D2FF01BB22D480064EDC0 /* AppDelegate.m */,
 				EF3D301F1BB2335E0064EDC0 /* RootViewController.h */,
@@ -152,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF3D30161BB22D480064EDC0 /* Build configuration list for PBXNativeTarget "QuickResponseCode" */;
 			buildPhases = (
+				0A3E976E629A5CFB54B9587C /* Check Pods Manifest.lock */,
 				EF3D2FE51BB22D480064EDC0 /* Sources */,
 				EF3D2FE61BB22D480064EDC0 /* Frameworks */,
 				EF3D2FE71BB22D480064EDC0 /* Resources */,
+				2A0C7592A974D12E8F4D5E45 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,12 +301,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A3E976E629A5CFB54B9587C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2A0C7592A974D12E8F4D5E45 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QuickResponseCode/Pods-QuickResponseCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF3D2FE51BB22D480064EDC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EF3D2FF41BB22D480064EDC0 /* ViewController.m in Sources */,
+				EF3D30241BB24C640064EDC0 /* AboutViewController.m in Sources */,
 				EF3D2FF11BB22D480064EDC0 /* AppDelegate.m in Sources */,
 				EF3D30211BB2335E0064EDC0 /* RootViewController.m in Sources */,
 				EF3D2FEE1BB22D480064EDC0 /* main.m in Sources */,
@@ -415,6 +480,7 @@
 		};
 		EF3D30171BB22D480064EDC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D67CB38025326FE3331818C /* Pods-QuickResponseCode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickResponseCode/Info.plist;
@@ -426,6 +492,7 @@
 		};
 		EF3D30181BB22D480064EDC0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C39D0E4D2BCD30C4F232A1 /* Pods-QuickResponseCode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickResponseCode/Info.plist;
