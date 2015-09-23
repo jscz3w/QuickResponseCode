@@ -18,6 +18,24 @@
 		EF3D30121BB22D480064EDC0 /* QuickResponseCodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30111BB22D480064EDC0 /* QuickResponseCodeUITests.m */; };
 		EF3D30211BB2335E0064EDC0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30201BB2335E0064EDC0 /* RootViewController.m */; settings = {ASSET_TAGS = (); }; };
 		EF3D30241BB24C640064EDC0 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30231BB24C640064EDC0 /* AboutViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF3D30391BB290880064EDC0 /* ScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3D30381BB290880064EDC0 /* ScannerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		EF3D303D1BB2915E0064EDC0 /* border.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D303B1BB2915E0064EDC0 /* border.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D303E1BB2915E0064EDC0 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D303C1BB2915E0064EDC0 /* line.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D30481BB29A0E0064EDC0 /* aceessBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D303F1BB29A0E0064EDC0 /* aceessBtn.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D30491BB29A0E0064EDC0 /* aceessBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30401BB29A0E0064EDC0 /* aceessBtn@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D304A1BB29A0E0064EDC0 /* aceessBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30411BB29A0E0064EDC0 /* aceessBtn@3x.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D304B1BB29A0E0064EDC0 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30421BB29A0E0064EDC0 /* background.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D304C1BB29A0E0064EDC0 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30431BB29A0E0064EDC0 /* background@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D304D1BB29A0E0064EDC0 /* background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30441BB29A0E0064EDC0 /* background@3x.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D304E1BB29A0E0064EDC0 /* scanBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30451BB29A0E0064EDC0 /* scanBtn.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D304F1BB29A0E0064EDC0 /* scanBtn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30461BB29A0E0064EDC0 /* scanBtn@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D30501BB29A0E0064EDC0 /* scanBtn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30471BB29A0E0064EDC0 /* scanBtn@3x.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D30541BB2A13B0064EDC0 /* txtImg.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30511BB2A13B0064EDC0 /* txtImg.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D30551BB2A13B0064EDC0 /* txtImg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30521BB2A13B0064EDC0 /* txtImg@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D30561BB2A13B0064EDC0 /* txtImg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30531BB2A13B0064EDC0 /* txtImg@3x.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D305A1BB2AADA0064EDC0 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30571BB2AADA0064EDC0 /* background2.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D305B1BB2AADA0064EDC0 /* background2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30581BB2AADA0064EDC0 /* background2@2x.png */; settings = {ASSET_TAGS = (); }; };
+		EF3D305C1BB2AADA0064EDC0 /* background2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3D30591BB2AADA0064EDC0 /* background2@3x.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +79,25 @@
 		EF3D30201BB2335E0064EDC0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = ../RootViewController.m; sourceTree = "<group>"; };
 		EF3D30221BB24C640064EDC0 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
 		EF3D30231BB24C640064EDC0 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		EF3D30371BB290880064EDC0 /* ScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScannerViewController.h; sourceTree = SOURCE_ROOT; };
+		EF3D30381BB290880064EDC0 /* ScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScannerViewController.m; sourceTree = SOURCE_ROOT; };
+		EF3D303B1BB2915E0064EDC0 /* border.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = border.png; path = images/border.png; sourceTree = "<group>"; };
+		EF3D303C1BB2915E0064EDC0 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = line.png; path = images/line.png; sourceTree = "<group>"; };
+		EF3D303F1BB29A0E0064EDC0 /* aceessBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = aceessBtn.png; path = images/aceessBtn.png; sourceTree = "<group>"; };
+		EF3D30401BB29A0E0064EDC0 /* aceessBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "aceessBtn@2x.png"; path = "images/aceessBtn@2x.png"; sourceTree = "<group>"; };
+		EF3D30411BB29A0E0064EDC0 /* aceessBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "aceessBtn@3x.png"; path = "images/aceessBtn@3x.png"; sourceTree = "<group>"; };
+		EF3D30421BB29A0E0064EDC0 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = images/background.png; sourceTree = "<group>"; };
+		EF3D30431BB29A0E0064EDC0 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "images/background@2x.png"; sourceTree = "<group>"; };
+		EF3D30441BB29A0E0064EDC0 /* background@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@3x.png"; path = "images/background@3x.png"; sourceTree = "<group>"; };
+		EF3D30451BB29A0E0064EDC0 /* scanBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = scanBtn.png; path = images/scanBtn.png; sourceTree = "<group>"; };
+		EF3D30461BB29A0E0064EDC0 /* scanBtn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scanBtn@2x.png"; path = "images/scanBtn@2x.png"; sourceTree = "<group>"; };
+		EF3D30471BB29A0E0064EDC0 /* scanBtn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "scanBtn@3x.png"; path = "images/scanBtn@3x.png"; sourceTree = "<group>"; };
+		EF3D30511BB2A13B0064EDC0 /* txtImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = txtImg.png; path = images/txtImg.png; sourceTree = "<group>"; };
+		EF3D30521BB2A13B0064EDC0 /* txtImg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "txtImg@2x.png"; path = "images/txtImg@2x.png"; sourceTree = "<group>"; };
+		EF3D30531BB2A13B0064EDC0 /* txtImg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "txtImg@3x.png"; path = "images/txtImg@3x.png"; sourceTree = "<group>"; };
+		EF3D30571BB2AADA0064EDC0 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background2.png; path = images/background2.png; sourceTree = "<group>"; };
+		EF3D30581BB2AADA0064EDC0 /* background2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background2@2x.png"; path = "images/background2@2x.png"; sourceTree = "<group>"; };
+		EF3D30591BB2AADA0064EDC0 /* background2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background2@3x.png"; path = "images/background2@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +146,7 @@
 		EF3D2FE01BB22D480064EDC0 = {
 			isa = PBXGroup;
 			children = (
+				EF3D303A1BB2914B0064EDC0 /* images */,
 				EF3D2FEB1BB22D480064EDC0 /* QuickResponseCode */,
 				EF3D30051BB22D480064EDC0 /* QuickResponseCodeTests */,
 				EF3D30101BB22D480064EDC0 /* QuickResponseCodeUITests */,
@@ -131,6 +169,8 @@
 		EF3D2FEB1BB22D480064EDC0 /* QuickResponseCode */ = {
 			isa = PBXGroup;
 			children = (
+				EF3D30371BB290880064EDC0 /* ScannerViewController.h */,
+				EF3D30381BB290880064EDC0 /* ScannerViewController.m */,
 				EF3D30221BB24C640064EDC0 /* AboutViewController.h */,
 				EF3D30231BB24C640064EDC0 /* AboutViewController.m */,
 				EF3D2FEF1BB22D480064EDC0 /* AppDelegate.h */,
@@ -172,6 +212,30 @@
 				EF3D30131BB22D480064EDC0 /* Info.plist */,
 			);
 			path = QuickResponseCodeUITests;
+			sourceTree = "<group>";
+		};
+		EF3D303A1BB2914B0064EDC0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EF3D30571BB2AADA0064EDC0 /* background2.png */,
+				EF3D30581BB2AADA0064EDC0 /* background2@2x.png */,
+				EF3D30591BB2AADA0064EDC0 /* background2@3x.png */,
+				EF3D30511BB2A13B0064EDC0 /* txtImg.png */,
+				EF3D30521BB2A13B0064EDC0 /* txtImg@2x.png */,
+				EF3D30531BB2A13B0064EDC0 /* txtImg@3x.png */,
+				EF3D303F1BB29A0E0064EDC0 /* aceessBtn.png */,
+				EF3D30401BB29A0E0064EDC0 /* aceessBtn@2x.png */,
+				EF3D30411BB29A0E0064EDC0 /* aceessBtn@3x.png */,
+				EF3D30421BB29A0E0064EDC0 /* background.png */,
+				EF3D30431BB29A0E0064EDC0 /* background@2x.png */,
+				EF3D30441BB29A0E0064EDC0 /* background@3x.png */,
+				EF3D30451BB29A0E0064EDC0 /* scanBtn.png */,
+				EF3D30461BB29A0E0064EDC0 /* scanBtn@2x.png */,
+				EF3D30471BB29A0E0064EDC0 /* scanBtn@3x.png */,
+				EF3D303B1BB2915E0064EDC0 /* border.png */,
+				EF3D303C1BB2915E0064EDC0 /* line.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +343,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF3D30561BB2A13B0064EDC0 /* txtImg@3x.png in Resources */,
 				EF3D2FFC1BB22D480064EDC0 /* LaunchScreen.storyboard in Resources */,
+				EF3D303E1BB2915E0064EDC0 /* line.png in Resources */,
+				EF3D304D1BB29A0E0064EDC0 /* background@3x.png in Resources */,
 				EF3D2FF91BB22D480064EDC0 /* Assets.xcassets in Resources */,
 				EF3D2FF71BB22D480064EDC0 /* Main.storyboard in Resources */,
+				EF3D30481BB29A0E0064EDC0 /* aceessBtn.png in Resources */,
+				EF3D305B1BB2AADA0064EDC0 /* background2@2x.png in Resources */,
+				EF3D30491BB29A0E0064EDC0 /* aceessBtn@2x.png in Resources */,
+				EF3D30551BB2A13B0064EDC0 /* txtImg@2x.png in Resources */,
+				EF3D305C1BB2AADA0064EDC0 /* background2@3x.png in Resources */,
+				EF3D30501BB29A0E0064EDC0 /* scanBtn@3x.png in Resources */,
+				EF3D305A1BB2AADA0064EDC0 /* background2.png in Resources */,
+				EF3D304A1BB29A0E0064EDC0 /* aceessBtn@3x.png in Resources */,
+				EF3D304B1BB29A0E0064EDC0 /* background.png in Resources */,
+				EF3D304F1BB29A0E0064EDC0 /* scanBtn@2x.png in Resources */,
+				EF3D304C1BB29A0E0064EDC0 /* background@2x.png in Resources */,
+				EF3D30541BB2A13B0064EDC0 /* txtImg.png in Resources */,
+				EF3D303D1BB2915E0064EDC0 /* border.png in Resources */,
+				EF3D304E1BB29A0E0064EDC0 /* scanBtn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF3D2FF41BB22D480064EDC0 /* ViewController.m in Sources */,
+				EF3D30391BB290880064EDC0 /* ScannerViewController.m in Sources */,
 				EF3D30241BB24C640064EDC0 /* AboutViewController.m in Sources */,
 				EF3D2FF11BB22D480064EDC0 /* AppDelegate.m in Sources */,
 				EF3D30211BB2335E0064EDC0 /* RootViewController.m in Sources */,
@@ -484,6 +566,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickResponseCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PSVHL63CLJ.net.52swift.app.Quick2dCode.QuickResponseCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +579,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QuickResponseCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PSVHL63CLJ.net.52swift.app.Quick2dCode.QuickResponseCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";

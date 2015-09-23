@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ScannerViewController.h"
 
-@interface RootViewController : UIViewController
+@interface RootViewController : UIViewController<ScannerViewControllerDelegate>
 
 @end

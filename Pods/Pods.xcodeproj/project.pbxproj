@@ -477,7 +477,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8B33714D56ABE88DFA881B8915911565 /* PBXContainerItemProxy */ = {
+		0A73A230A9B98DD479AC40EA82E90CCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -526,6 +526,7 @@
 		16402149CF18770EA1B28A4DBF3D2015 /* ZXDataMatrixBitMatrixParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXDataMatrixBitMatrixParser.h; path = ZXingObjC/datamatrix/decoder/ZXDataMatrixBitMatrixParser.h; sourceTree = "<group>"; };
 		16D13084AFE91BABB1A0D328D4F515E8 /* ZXUPCEANWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCEANWriter.h; path = ZXingObjC/oned/ZXUPCEANWriter.h; sourceTree = "<group>"; };
 		17B0587BC9A82D80970110A41EEC1C4F /* ZXQRCodeMode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXQRCodeMode.m; path = ZXingObjC/qrcode/decoder/ZXQRCodeMode.m; sourceTree = "<group>"; };
+		17FE714390347A1C95E7E86CE447BF94 /* ZXingObjC-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZXingObjC-Private.xcconfig"; sourceTree = "<group>"; };
 		193F76979517134D008C20F185C2109C /* ZXQRCodeFinderPatternInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeFinderPatternInfo.h; path = ZXingObjC/qrcode/detector/ZXQRCodeFinderPatternInfo.h; sourceTree = "<group>"; };
 		19AF893D741EFB0E8D723900D874FF26 /* ZXGenericMultipleBarcodeReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXGenericMultipleBarcodeReader.h; path = ZXingObjC/multi/ZXGenericMultipleBarcodeReader.h; sourceTree = "<group>"; };
 		1A530AED194E6D48D02FC9AF46DA196F /* ZXPDF417Dimensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417Dimensions.m; path = ZXingObjC/pdf417/encoder/ZXPDF417Dimensions.m; sourceTree = "<group>"; };
@@ -635,9 +636,9 @@
 		5056B57E40B9E589D26E1658E8C85762 /* ZXAI013103decoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAI013103decoder.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXAI013103decoder.h; sourceTree = "<group>"; };
 		50ADE31ACA1E0F2A4F78A03A68A8F7B4 /* ZXISBNResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXISBNResultParser.h; path = ZXingObjC/client/result/ZXISBNResultParser.h; sourceTree = "<group>"; };
 		5150D7A59FF611B85B1CE50EF264D5C1 /* ZXAztecBinaryShiftToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXAztecBinaryShiftToken.h; path = ZXingObjC/aztec/encoder/ZXAztecBinaryShiftToken.h; sourceTree = "<group>"; };
-		5254F399E6FDA2DAA66AE4C6F3465447 /* Pods-QuickResponseCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickResponseCode.release.xcconfig"; sourceTree = "<group>"; };
 		53235849B073D7442FA7322CF0FC81FD /* ZXVEventResultParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXVEventResultParser.m; path = ZXingObjC/client/result/ZXVEventResultParser.m; sourceTree = "<group>"; };
 		564A89A56798802783D97CE47B759E79 /* ZXPlanarYUVLuminanceSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXPlanarYUVLuminanceSource.h; path = ZXingObjC/core/ZXPlanarYUVLuminanceSource.h; sourceTree = "<group>"; };
+		56A229EF79F56E6BA8D0C198B8CC3239 /* Pods-QuickResponseCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickResponseCode.debug.xcconfig"; sourceTree = "<group>"; };
 		56AE5231B2279A7F8B0548D7DFF9AD2C /* ZXBookmarkDoCoMoResultParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXBookmarkDoCoMoResultParser.h; path = ZXingObjC/client/result/ZXBookmarkDoCoMoResultParser.h; sourceTree = "<group>"; };
 		573DA14E80ADB48DF6CED312BB5A43C1 /* ZXUPCEANExtensionSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCEANExtensionSupport.h; path = ZXingObjC/oned/ZXUPCEANExtensionSupport.h; sourceTree = "<group>"; };
 		57D67079C3F59B09287473C847697B8B /* ZXEncodeHints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEncodeHints.h; path = ZXingObjC/core/ZXEncodeHints.h; sourceTree = "<group>"; };
@@ -841,6 +842,7 @@
 		BC4FF3B131E38BACAC1D8EED759571CE /* ZXRSSExpandedRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXRSSExpandedRow.m; path = ZXingObjC/oned/rss/expanded/ZXRSSExpandedRow.m; sourceTree = "<group>"; };
 		BC6D79E436A04B20F76A65621D84BC12 /* ZXBitMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXBitMatrix.m; path = ZXingObjC/common/ZXBitMatrix.m; sourceTree = "<group>"; };
 		BD68E2DEC42DD5E89F912E948826995A /* ZXEAN13Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXEAN13Writer.h; path = ZXingObjC/oned/ZXEAN13Writer.h; sourceTree = "<group>"; };
+		BE42604F005FD48F566F76E1136F9A21 /* Pods-QuickResponseCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickResponseCode.release.xcconfig"; sourceTree = "<group>"; };
 		BE509B5DC5951AECC346609244F5FA81 /* ZXRSSExpandedBlockParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedBlockParsedResult.h; path = ZXingObjC/oned/rss/expanded/decoders/ZXRSSExpandedBlockParsedResult.h; sourceTree = "<group>"; };
 		BEC4289D83DDD7CCFEC6A8227F40E180 /* ZXParsedResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXParsedResult.h; path = ZXingObjC/client/result/ZXParsedResult.h; sourceTree = "<group>"; };
 		BEFBF3AD0219E2CD8A394FE771E9B4F0 /* ZXDimension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXDimension.m; path = ZXingObjC/core/ZXDimension.m; sourceTree = "<group>"; };
@@ -934,7 +936,6 @@
 		ED01A01A425FFFA59451DE27E57B94F9 /* ZXQRCodeMultiReader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXQRCodeMultiReader.h; path = ZXingObjC/qrcode/multi/ZXQRCodeMultiReader.h; sourceTree = "<group>"; };
 		ED3B9A5B0DC23989BD1F1DB3A1E96446 /* ZXResultPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXResultPoint.m; path = ZXingObjC/core/ZXResultPoint.m; sourceTree = "<group>"; };
 		EEBD1E187C8FA041E071A4CB7878F3AA /* ZXPDF417HighLevelEncoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417HighLevelEncoder.m; path = ZXingObjC/pdf417/encoder/ZXPDF417HighLevelEncoder.m; sourceTree = "<group>"; };
-		EF0466C141126179A51C8AD6ADC73191 /* ZXingObjC-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZXingObjC-Private.xcconfig"; sourceTree = "<group>"; };
 		EF789774C651D30F4B69018338FABFB5 /* ZXUPCAWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXUPCAWriter.m; path = ZXingObjC/oned/ZXUPCAWriter.m; sourceTree = "<group>"; };
 		EFD19057483A88DE379C049F31B9C74C /* ZXRGBLuminanceSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRGBLuminanceSource.h; path = ZXingObjC/core/ZXRGBLuminanceSource.h; sourceTree = "<group>"; };
 		EFD25CEAD35ED8FFB7F7F59173677AA8 /* ZXInvertedLuminanceSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXInvertedLuminanceSource.h; path = ZXingObjC/core/ZXInvertedLuminanceSource.h; sourceTree = "<group>"; };
@@ -961,7 +962,6 @@
 		FEED122B74F598A6ED9ACFC58C8F3261 /* ZXRSSExpandedRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXRSSExpandedRow.h; path = ZXingObjC/oned/rss/expanded/ZXRSSExpandedRow.h; sourceTree = "<group>"; };
 		FF2C4FB67CEC76F5BD89725A63850E1B /* ZXGenericGF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXGenericGF.m; path = ZXingObjC/common/reedsolomon/ZXGenericGF.m; sourceTree = "<group>"; };
 		FF50CB5FFB1682F5FA54CBD91B634AB1 /* ZXPDF417CodewordDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417CodewordDecoder.m; path = ZXingObjC/pdf417/decoder/ZXPDF417CodewordDecoder.m; sourceTree = "<group>"; };
-		FF65C86A0CBB98578CD08A62814500F5 /* Pods-QuickResponseCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuickResponseCode.debug.xcconfig"; sourceTree = "<group>"; };
 		FFA2A82C298FF484CFDB74A56162A611 /* ZXPDF417Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZXPDF417Writer.m; path = ZXingObjC/pdf417/ZXPDF417Writer.m; sourceTree = "<group>"; };
 		FFF9F87903F7EE3B33A64148761CF4CE /* ZXUPCAWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZXUPCAWriter.h; path = ZXingObjC/oned/ZXUPCAWriter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1004,7 +1004,7 @@
 			isa = PBXGroup;
 			children = (
 				445641785FCA5C1E6512109F81E315BD /* ZXingObjC.xcconfig */,
-				EF0466C141126179A51C8AD6ADC73191 /* ZXingObjC-Private.xcconfig */,
+				17FE714390347A1C95E7E86CE447BF94 /* ZXingObjC-Private.xcconfig */,
 				F4B9596B73F65F871FA09397037FE2A1 /* ZXingObjC-dummy.m */,
 				C7C2560C681BFF6FF6ED7C443FBB4EDD /* ZXingObjC-prefix.pch */,
 			);
@@ -1061,8 +1061,8 @@
 				46914C41CCEA4EB8C709F10D9303303B /* Pods-QuickResponseCode-acknowledgements.plist */,
 				6D2D7D3DE5DCB19EF0A4B875AAC05128 /* Pods-QuickResponseCode-dummy.m */,
 				B5FCE8693470959FC78344882FEC886D /* Pods-QuickResponseCode-resources.sh */,
-				FF65C86A0CBB98578CD08A62814500F5 /* Pods-QuickResponseCode.debug.xcconfig */,
-				5254F399E6FDA2DAA66AE4C6F3465447 /* Pods-QuickResponseCode.release.xcconfig */,
+				56A229EF79F56E6BA8D0C198B8CC3239 /* Pods-QuickResponseCode.debug.xcconfig */,
+				BE42604F005FD48F566F76E1136F9A21 /* Pods-QuickResponseCode.release.xcconfig */,
 			);
 			name = "Pods-QuickResponseCode";
 			path = "Target Support Files/Pods-QuickResponseCode";
@@ -1809,7 +1809,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FF636E6CBEAF426E626D9837B2E5116C /* PBXTargetDependency */,
+				7D4808E0691A64912BFF8AB5ABCCE942 /* PBXTargetDependency */,
 			);
 			name = "Pods-QuickResponseCode";
 			productName = "Pods-QuickResponseCode";
@@ -2100,22 +2100,56 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FF636E6CBEAF426E626D9837B2E5116C /* PBXTargetDependency */ = {
+		7D4808E0691A64912BFF8AB5ABCCE942 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZXingObjC;
 			target = E7C04D9C660E74C452B91C3C490F5F98 /* ZXingObjC */;
-			targetProxy = 8B33714D56ABE88DFA881B8915911565 /* PBXContainerItemProxy */;
+			targetProxy = 0A73A230A9B98DD479AC40EA82E90CCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3695078E6E07DE43282376DA97404EDC /* Debug */ = {
+		25E171B952D2694AE4310457BB6F22C6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF65C86A0CBB98578CD08A62814500F5 /* Pods-QuickResponseCode.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5394BF0DC7A8ACAD4666BF1607C55AC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE42604F005FD48F566F76E1136F9A21 /* Pods-QuickResponseCode.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2123,9 +2157,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		4DEA33ED409578A9CC7772BA2493F07C /* Debug */ = {
+		664A547D3C957543398A1C1CA8D23ACF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2157,54 +2191,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		6714950670CAA9F0C55F468667D43C97 /* Release */ = {
+		6F8D8CEE9A266A8A4B98141BCCB4136F /* Release */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		994A2440BC32512924237534ECD842A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF0466C141126179A51C8AD6ADC73191 /* ZXingObjC-Private.xcconfig */;
+			baseConfigurationReference = 17FE714390347A1C95E7E86CE447BF94 /* ZXingObjC-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ZXingObjC/ZXingObjC-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2214,13 +2214,13 @@
 			};
 			name = Release;
 		};
-		B33E5E27F8BD422AEEB0CAED53219777 /* Release */ = {
+		9A2F30A932C3ED6AC82A564B9E880F81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5254F399E6FDA2DAA66AE4C6F3465447 /* Pods-QuickResponseCode.release.xcconfig */;
+			baseConfigurationReference = 56A229EF79F56E6BA8D0C198B8CC3239 /* Pods-QuickResponseCode.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2228,15 +2228,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		CA4AB36144655E9677133BDDA886F991 /* Debug */ = {
+		E4E7C132484F17A0306B7700360F86AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF0466C141126179A51C8AD6ADC73191 /* ZXingObjC-Private.xcconfig */;
+			baseConfigurationReference = 17FE714390347A1C95E7E86CE447BF94 /* ZXingObjC-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ZXingObjC/ZXingObjC-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2252,8 +2252,8 @@
 		24ACA2944F1F74FA954F4D4CAEDF3AC7 /* Build configuration list for PBXNativeTarget "ZXingObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA4AB36144655E9677133BDDA886F991 /* Debug */,
-				994A2440BC32512924237534ECD842A5 /* Release */,
+				E4E7C132484F17A0306B7700360F86AF /* Debug */,
+				6F8D8CEE9A266A8A4B98141BCCB4136F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2261,8 +2261,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DEA33ED409578A9CC7772BA2493F07C /* Debug */,
-				6714950670CAA9F0C55F468667D43C97 /* Release */,
+				664A547D3C957543398A1C1CA8D23ACF /* Debug */,
+				25E171B952D2694AE4310457BB6F22C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2270,8 +2270,8 @@
 		61E17D87A395BBA4847AFF36CCED3C71 /* Build configuration list for PBXNativeTarget "Pods-QuickResponseCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3695078E6E07DE43282376DA97404EDC /* Debug */,
-				B33E5E27F8BD422AEEB0CAED53219777 /* Release */,
+				9A2F30A932C3ED6AC82A564B9E880F81 /* Debug */,
+				5394BF0DC7A8ACAD4666BF1607C55AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
