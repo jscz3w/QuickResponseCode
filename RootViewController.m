@@ -11,7 +11,7 @@
 
 @interface RootViewController ()
 @property (nonatomic,strong)UITextView * txtView ;
-@property (nonatomic,strong)UILabel * txtLabel;
+
 @end
 
 @implementation RootViewController
@@ -20,11 +20,25 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    UIImage *bkImg =[UIImage imageNamed:@"background@2x"];
-    NSLog(@"bkImg size= %d",(int)bkImg.size.width);
-    UIImageView *bkView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)];
-    [bkView setImage:bkImg];
-    [self.view addSubview:bkView];
+    UIImage *bkTopImg =[UIImage imageNamed:@"top@2x"];
+    NSLog(@"bkImg size= %d",(int)bkTopImg.size.width);
+    UIImageView *bkTopView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, 135)];
+    [bkTopView setImage:bkTopImg];
+    [self.view addSubview:bkTopView];
+    
+    UIImage *aBackGround=[UIImage imageNamed:@"background@2x"];
+    
+    UIColor *aColor =[UIColor colorWithPatternImage:aBackGround];
+    
+    self.view.backgroundColor=aColor;
+    
+    
+    
+    UIImage *bkDownImg =[UIImage imageNamed:@"down@2x"];
+    
+    UIImageView *bkDownView = [[UIImageView alloc]initWithFrame:CGRectMake(0, bkTopView.bounds.size.height+bkTopView.bounds.origin.y, self.view.bounds.size.width, 431)];
+    [bkDownView setImage:bkDownImg];
+    [self.view addSubview:bkDownView];
     
     
     UIImage *imgScanBtn =  [UIImage imageNamed:@"scanBtn@2x"];
@@ -44,37 +58,25 @@
                   action:@selector(accessBtnClick) forControlEvents:UIControlEventTouchUpInside];
     
     
-    //UIImage *txtImg = [UIImage imageNamed:@"txtImg@2x"];
-    //NSLog(@"txtImg size= %d",(int)txtImg.size.width);
-    
-   
-    //[self.view addSubview:bktxtView];
     
     
-    // _txtView = [[UITextView alloc]initWithFrame:CGRectMake(16, self.view.bounds.size.height-310-108, self.view.bounds.size.width-32, 310)];
+     _txtView = [[UITextView alloc]initWithFrame:CGRectMake(16, bkDownView.frame.origin.y+2, self.view.bounds.size.width-32, 310)];
     
-    //[txtView setBackgroundColor:[UIColor colorWithPatternImage:txtImg]];
     
-    //UIImageView *bktxtView = [[UIImageView alloc]initWithFrame:CGRectMake(-2, -2, txtView.bounds.size.width, txtView.bounds.size.height)];
-    //[bktxtView setImage:txtImg];
+     _txtView.backgroundColor =[UIColor clearColor];
     
-    //[txtView addSubview:bktxtView];
+     _txtView.font=[UIFont boldSystemFontOfSize:22];
     
-   // _txtView.backgroundColor =[UIColor clearColor];
+    _txtView.editable=NO;
     
-    //[self.view addSubview:_txtView];
-    _txtLabel = [[UILabel alloc]initWithFrame:CGRectMake(16, self.view.bounds.size.height-310-108, self.view.bounds.size.width-32, 310)];
-    _txtLabel.numberOfLines=0;
-    [self.view addSubview:_txtLabel];
-    
-   // UIColor *aColor = [UIColor colorWithPatternImage:bkImg];
-   // self.view.backgroundColor=aColor;
+   [self.view addSubview:_txtView];
+
     
 }
 
 -(void)accessBtnClick{
     
-    NSURL* MISurl = [[ NSURL alloc ] initWithString :_txtLabel.text];
+    NSURL* MISurl = [[ NSURL alloc ] initWithString :_txtView.text];
     [[UIApplication sharedApplication ] openURL:MISurl];
 }
 
@@ -88,7 +90,7 @@
 }
 
 -(void)scanResult:(NSString *)result{
-    self.txtLabel.text=result;
+    self.txtView.text=result;
 }
 
 - (void)didReceiveMemoryWarning {
