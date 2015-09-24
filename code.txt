@@ -1,0 +1,71 @@
+NSDictionary *myDic=[[NSDictionary alloc]initWithObjectsAndKeys:@"张三",@"name",@"李四",@"name2", nil];
+    
+    NSUInteger count = [myDic count];
+    NSLog(@"词典的数量为：  %lu",count);
+    
+    NSEnumerator * myEnumerator = [myDic keyEnumerator];
+    
+    
+    for (NSObject *object in myEnumerator) {
+        NSLog(@"遍历KEY的值: %@",object);
+    }
+    
+    myEnumerator = [[myDic allValues] objectEnumerator];
+    NSString *value;
+    while((value = [myEnumerator nextObject]))
+    {
+        NSLog(@"遍历的值: %@",value);
+    }
+    
+    //通过KEY找到value
+    NSObject *myObject = [myDic objectForKey:@"name"];
+    
+    if (myObject != nil) {
+        NSLog(@"通过KEY找到的value是: %@",myObject);
+    }
+    
+    NSMutableDictionary *mydic2 = [NSMutableDictionary dictionaryWithCapacity:10];
+    [mydic2 setObject:@"Alex Hu" forKey:@"name"];
+    [mydic2 setObject:@"1388888888" forKey:@"mobile number"];
+    
+    for (NSObject *object in [mydic2 objectEnumerator]) {
+        NSLog(@"遍历的值: %@",object);
+    }
+    
+    [mydic2 setObject:@"wzh" forKey:@"ax"];
+    
+    
+    for (NSObject *object in [mydic2 objectEnumerator]) {
+        NSLog(@"遍历的值: %@",object);
+    }
+    
+    NSObject * obj =[mydic2 objectForKey:@"ax"];
+    if(obj != nil)
+    {
+        NSLog(@"遍历NSMutableDictionary : %@",obj);
+    }
+    
+    
+    NSSet *mySet=[NSSet setWithObjects:@"A",@"B",@"C",@"D",[NSNumber numberWithInteger:123], nil];
+    count=[mySet count];
+    NSLog(@"count= %lu",count);
+    
+    myEnumerator=[mySet objectEnumerator];
+    for (NSObject *object in myEnumerator) {
+        NSLog(@"myEnumerator value=%@",object);
+        if ([object isEqualTo:@"A"]) {
+            NSLog(@"找到A了");
+        }
+        if ([object isEqual:@"B"]) {
+            NSLog(@"找到B");
+        }
+    }
+    
+    NSArray *mySetArr=[mySet allObjects];
+    for (NSUInteger i=0; i<[mySetArr count];i++) {
+        NSLog(@"%lu =>%@",i,[mySetArr objectAtIndex:i]);
+    }
+    
+    if ([mySet containsObject:@"D"]) {
+        NSLog(@"集合中包含 D这个对象");
+    }
